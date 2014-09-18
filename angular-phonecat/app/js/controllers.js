@@ -6,11 +6,13 @@ var phonecatApp = angular.module('phonecatApp', []);
 
 phonecatApp.controller('PhoneListCtrl', function($scope) {
   $scope.phones = [
-    {'name': 'Nexus S',
-     'snippet': 'Fast just got faster with Nexus S.'},
-    {'name': 'Motorola XOOM™ with Wi-Fi',
-     'snippet': 'The Next, Next Generation tablet.'},
-    {'name': 'MOTOROLA XOOM™',
-     'snippet': 'The Next, Next Generation tablet.'}
+    {'name': 'iPhone 6 Plus',
+     'snippet': 'Super HUGE phone that is pretty sweet too.'},
+    {'name': 'Samsung Galaxy S5',
+     'snippet': 'Really fast and stuff like that.'},
+    {'name': 'Joshey Xtreme',
+     'snippet': 'It is extreme! Enough said...'},
+      {'name': 'UltimoPad',
+      'snippet': 'Ultimate notepad that is cool.'}
   ];
 });
